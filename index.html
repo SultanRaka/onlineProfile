@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>My Profile</title>
+    </head>
+
+    <body>
+        <div id="bg">
+            <div class="row" id="profile">
+                <div class="col-sm-3">
+                  <div class="black-box">
+                        <div class="main-profile">
+                            <img src="img/pp.jpg" class="responsive"> <!--Silahkan ganti foto anda disini-->
+                            <h1>Nama Anda Disini</h1> <!--Silahkan ganti nama anda disini-->
+                            <br>
+                            <h2><strong><u>Kontak__________</u></strong></h2>
+                            <br>
+                            <h3><strong>Email:</strong></h3> 
+                            <h4>haha@hehe.net</h4> <!--Silahkan ganti email anda disini-->
+                            <br>
+                            <h3><strong>Telepon:</strong></h3> 
+                            <h4>+62 8123456789</h4> <!--Silahkan ganti no. telepon anda disini-->
+                            <br>
+                            <h3><strong>Kontak lain:</strong></h3> <!--Silahkan ganti atau tambah kontak lain anda disini-->
+                            <h4>@SayaSiapa</h4>
+                        </div>
+                  </div>
+                </div>
+                <div class="col-sm-9">
+                    <div class="white-box">
+                        <div class="secondary-profile">
+                            <div class="tab">
+                                <button class="tablinks" onclick="gantiTab(event, 'tentang_saya')">Tentang Saya</button>
+                                <button class="tablinks" onclick="gantiTab(event, 'pendidikan')">Riwayat Pendidikan</button>
+                                <button class="tablinks" onclick="gantiTab(event, 'pengalaman')">Pengalaman Pekerjaan</button>
+                                <button class="tablinks" onclick="gantiTab(event, 'sertifikat')">Sertifikat</button>
+                            </div>
+                            <div id="tentang_saya" class="tabcontent"> <!--Edit profil singkat kalian disini-->
+                                <h3>Tentang Saya</h3>
+                                <p>Apakah anda tahu siapakah saya? Iya, Saya juga tidak tahu saya ini siapa. Sepertinya Saya hanyalah
+                                    seseorang yang tidak diketahui identitasnya karena pembuat template situs profil ini tidak memberikan
+                                    kejelasan tentang siapa diri saya yang sebenarnya.
+                                </p>
+
+                                <p>Dari tebakan saya, saya adalah seseorang yang hanya dibuat oleh pembuat situs ini sebagai template atau
+                                    dasar dari sebuah karya atau seseorang. Di tab ini kalian dapat mengisi profil singkat tentang kalian.
+                                    Bisa berupa biografi anda, latar belakang anda, atau hal lain yang berkaitan dengan kalian. Silahkan 
+                                    isi sesuai kebutuhan dan keinginan kalian disini!.
+                                </p>
+
+                                <p>Untuk berapa paragraf yang dapat kalian tulis sebetulnya tidak ada batasan. Silahkan isi sebanyak atau sedikit
+                                    kalian mau. Untuk menambah paragraf, kalian dapat mengcopy-paste tag paragraf di tab ini. Sebaliknya, Untuk 
+                                    menghapus paragraf dapat dilakukan dengan menghapus tag paragraf pada tab ini. Sedikit catatan, situs ini hanyalah
+                                    sebuah situs sederhana yang dibuat oleh saya secara sukarela dan dilakukan pada waktu senggang. Tampilan situs 
+                                    ini bisa lebih bagus lagi jika saya dapat bekerja dengan seorang desainer UI atau dengan template yang sudah disediakan.
+                                    Jika diberi upah, saya dapat bekerja lebih keras dan lebih baik lagi hehe...
+                                </p>
+
+                                <p>Oh iya, kalian juga bisa mengedit beberapa element dari situs ini. Beberapa placeholder juga sudah saya beri comment agar
+                                    mudah ditemukan dan diganti. 
+                                </p>
+                              </div>
+                              
+                              <div id="pendidikan" class="tabcontent"> <!--Edit riwayat pendidikan kalian disini-->
+                                <h3>Riwayat Pendidikan</h3>
+                                <br>
+                                
+                                <h3><strong>SMA Negeri di Atas Awan</strong></h3>
+                                <h4>Jurusan IPA | 2013-2016</h4>
+
+                                <h3><strong>Universitas Seni Viena</strong></h3>
+                                <h4>S1 Gambar Anime | 2016-2020</h4>
+
+                                <h3><strong>Universitas Teknologi Pekalongan</strong></h3>
+                                <h4>S2 Bikin Cheat Game Online | 2020-2024</h4>
+
+                                <h3><strong>Rhode Island University</strong></h3>
+                                <h4>Ph.D in Medical Science | 2024-2030</h4>
+                              </div>
+                              
+                              <div id="pengalaman" class="tabcontent"> <!--Edit pengalaman kerja kalian disini-->
+                                <h3>Pengalaman Kerja</h3>
+                                <br>
+
+                                <h3><strong>Banana Inc.</strong></h3>
+                                <h4>Full-stack Mobile Developer | 2015-2016</h4>
+                                <p>Bekerja sebagai full-stack mobile developer di perusahaan Banana Inc. yang ikut berperan
+                                    secara aktif dalam pengembangan software untuk ponsel bPhone
+                                </p>
+
+                                <h3><strong>Goggle Irlandia</strong></h3>
+                                <h4>Senior RnD Engineer | 2016-2017</h4>
+                                <p>Bekerja RnD engineer dalam proyek riset teknologi pelindung mata yang kuat dipakai untuk 
+                                    dipakai dalam olah-raga airsoft
+                                </p>
+
+                                <h3><strong>Gehenna Academy </strong></h3>
+                                <h4>Lecturer / Teacher | 2018-2020</h4>
+                                <p>Menjadi guru di Gehenna Academy yang mengajar di bidang Software Development dan Robotika
+                                </p>
+
+                                <h3><strong>Liyue Medical Center </strong></h3>
+                                <h4>Dokter | 2020-2021</h4>
+                                <p>Berperan aktif sebagai dokter untuk menangani wabah penyakit yang terjadi yang diakibatkan seorang
+                                    gadis memasak "Makanan Darurat"
+                                </p>
+
+                                <h3><strong>Rhodes Island </strong></h3>
+                                <h4>Disease Researcher | 2021-sekarang</h4>
+                                <p>Berperan sebagai insinyur untuk mengembangkan vaksin untuk menangani pandemi global yang bermula dari kota Liyue
+                                </p>
+
+                              </div>
+
+                              <div id="sertifikat" class="tabcontent"> <!--Edit sertifikat kalian disini-->
+                                <h3>Sertifikat</h3>
+                                <br>
+
+                                <h3><strong>Sertifikat Vaksin</strong></h3>
+                                <a href="https://youtu.be/dQw4w9WgXcQ"><h4>Lihat keaslian sertifikat</h4></a>
+                                <p>Sertifikat vaksin yang diberikan oleh Rhode Island
+                                </p>
+                              </div>
+                            
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </body>
+</html>
